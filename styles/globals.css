@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: start;
+  /* text-align: center; */
+}
+.nav-container a {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav-container a:hover {
+  color: red;
+}
+
+.nav-logo {
+}
